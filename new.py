@@ -4,10 +4,10 @@ from tweepy import OAuthHandler
 import matplotlib.pyplot as plt
 def percentage(part,whole):
     return(100*(float(part)/float(whole)))
-ckey='c1u3XTwIBLEaJKgylk9CIuQDJ'
-csecret='OUql0Wg2NR9EwsRYtOVZU4Wr9PmtNiZqJhVOlc67tNVyszKtXX'
-atoken='1279917559-OCyphquzI519Hii7J7I5TXwkjL8UEeorxm4iUuu'
-asecret='4t38kCf212Tu7qxg4JqEK6FEjW1DeCGtdaR66Ah2voQLv'
+ckey='YOUR CONSUMER KEY HERE'
+csecret='YOUR CONSUMER SECRET KEY HERE'
+atoken='YOUR ACCESS TOKEN HERE'
+asecret='YOUR ACCESS SECRET KEY HERE'
 auth=OAuthHandler(ckey,csecret)
 auth.set_access_token(atoken,asecret)
 api=tweepy.API(auth)
